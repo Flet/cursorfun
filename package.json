@@ -1,0 +1,29 @@
+{
+  "name": "cursorfun",
+  "version": "2.0.0",
+  "author": "Dan Flettre <fletd01@yahoo.com>",
+  "bugs": {
+    "url": "https://github.com/Flet/cursorfun/issues"
+  },
+  "devDependencies": {
+    "standard": "*",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.0"
+  },
+  "homepage": "https://github.com/Flet/cursorfun",
+  "keywords": [],
+  "license": "ISC",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Flet/cursorfun.git"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "semistandard"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io": "^1.4.5"
+  }
+}
